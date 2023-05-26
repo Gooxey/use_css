@@ -1,0 +1,20 @@
+[package]
+name = "use_css"
+version = "0.1.0"
+authors = ["Gooxey <dennis.tiderko@gmail.com>"]
+description = "Define styles for your yew components inside CSS files."
+edition = "2021"
+license-file = "LICENSE"
+readme = "README.md"
+rust-version = "1.67.1"
+publish = true
+repository = "https://github.com/Gooxey/use_css.git"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.52"
+quote = "1.0.26"
+regex = "1.8.1"
+syn = "2.0.3"
