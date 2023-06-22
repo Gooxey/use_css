@@ -1,0 +1,20 @@
+[package]
+name = "procmacros"
+authors.workspace = true
+categories.workspace = true
+description.workspace = true
+edition.workspace = true
+keywords.workspace = true
+license.workspace = true
+publish = false
+readme = "../README.md"
+repository.workspace = true
+version.workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.52"
+quote = "1.0.26"
+syn = "2.0.3"
