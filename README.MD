@@ -52,7 +52,9 @@ To use this style in `mod.rs`, you can write something like:
 use yew::prelude::*;
 use use_css::use_css;
 
-use_css!("title_bar"); // The string given should be the path, starting from `scr/`, to the folder where the desired `style.css` can be found.
+// The string given should be the path, starting from `scr/`, to the
+// folder where the desired `style.css` can be found.
+use_css!("title_bar");
 
 // here we first apply our global styles
 // and then we apply styles for actual elements
@@ -70,7 +72,3 @@ pub fn TitleBar() -> Html {
     }
 }
 ```
-
-## License
-
-This project is licensed under the [MIT license](LICENSE)
