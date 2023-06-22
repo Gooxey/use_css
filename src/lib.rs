@@ -1,4 +1,4 @@
 #![doc = include_str!("../README.md")]
 
-pub use procmacros::*;
+pub use use_css_procmacros::*;
 pub use stylist;

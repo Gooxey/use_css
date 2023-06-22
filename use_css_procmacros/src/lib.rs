@@ -1,3 +1,5 @@
+#![doc = include_str!("../README.md")]
+
 use std::{
     fs::File,
     io::Read,
@@ -36,7 +38,7 @@ impl Parse for FileName {
     }
 }
 
-/// See the [`crate's documentation`](crate) for more details.
+/// See the [`crate's documentation`](https://docs.rs/use_css/latest/use_css/) for more details.
 #[proc_macro]
 pub fn use_css(input: TokenStream) -> TokenStream {
     let input = syn::parse_macro_input!(input as FileName);

@@ -11,7 +11,7 @@ repository.workspace = true
 version.workspace = true
 
 [workspace]
-members = ["procmacros"]
+members = ["use_css_procmacros"]
 package.authors = ["Gooxey <dennis.tiderko@gmail.com>"]
 package.categories = ["wasm", "web-programming"]
 package.description = "Define styles for your yew components inside CSS files."
@@ -22,5 +22,5 @@ package.repository = "https://github.com/Gooxey/use_css.git"
 package.version = "0.2.0"
 
 [dependencies]
-procmacros ={ path = "procmacros" }
+use_css_procmacros = { path = "use_css_procmacros", version = "0.*" }
 stylist = { version = "0.12.0", features = ["yew", "parser"] }
